@@ -1,0 +1,6 @@
+{
+  "name": "Short Video Social Platform",
+  "description": "A premium, mobile-first short-video social platform with an interactive feed, creation studio, messaging inbox, creator dashboard, live streaming simulator, and administration suite.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

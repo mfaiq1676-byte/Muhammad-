@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Elegant Dark Luxury Palette */
+  --color-obsidian: #050507;
+  --color-carbon-dark: #0d0d11;
+  --color-carbon-light: #16161e;
+  --color-carbon-card: #111116;
+  --color-champagne-gold: #dfb76c;
+  --color-velvet-bronze: #b58a3d;
+  --color-platinum: #f4f4f7;
+  --color-fine-gray: #8e8e93;
+}
+
+/* Custom scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Luxury visual ambient lighting */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.25; filter: blur(80px); }
+  50% { opacity: 0.4; filter: blur(100px); }
+}
+
+.ambient-glow-gold {
+  animation: pulseGlow 6s infinite ease-in-out;
+}
